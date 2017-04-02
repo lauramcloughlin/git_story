@@ -13,10 +13,9 @@
 <h1>The Traditional Sunday Dinner</h1>
 
 <?php
-for ($loop = 1; $loop <= 3; $loop++) { ?>
+for ($loop = 0; $loop <= 2; $loop++) { ?>
 <p><a href="chapter0<?= $loop ?>.html">Chapter <?= $loop ?><a></p>
 <?php } ?>
-
 
 </body>
 </html>
